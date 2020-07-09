@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*/////navbar////////*/
+#navbar{
+    height: 100vh;
+    background-image: url(background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}
+/*////nav/////////*/
+nav{
+    display: flex;
+    height: 10vh;
+    text-align: center;
+}
+/*///////logo////////*/
+#logo img{
+    height: 10vh;
+    width: 6vw;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*  ////nav///*/
+nav ul{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    list-style: none;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav ul li a:hover{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/*//////intro////*/
+#intro{
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 690px;
+    height: 50vh;
+    width: 50vw;
+    text-align: center;
+    padding: 30px;
+}
+#intro h2{
+    color: aqua;
+}
+#intro h3{
+    margin: 30px;
+}
+/*///////////////////////////////home//////*/
+#home{
+    height: 100vh;
+    text-align: center;
+    padding:30px;
+}
+#home ul{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+}
+#home ul li{
+    display: inline-block;
+    width: 80vw;
+    height: 60vh;
+    margin: 10px;
+    padding: 20px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+#home ul li:hover{
+    color: white;
+    background-color: #F4941A;
+    transition: 0.3s;
+}
+#home ul li img{
+    height: 18vh;
+    width: 12vw;
+}
+#home h1{
+    margin: 10px;
+}
+#home p{
+    font-size: 1.3rem;
+}
+/*/////////////use//////////////////////////*/
+#use{
+    height: 170vh;
+    text-align: center;
+    padding: 10px;
+}
+.right h1{
+    color: aqua;
+    margin: 10px;
+}
+.left h1{
+    color: aqua;
+    margin: 10px;
+}
+.left{
+    border-right: 1px solid black; 
+    float: left;
+    clear: both;
+    width: 40vw;
+    height: 40vh;
+}
+.right{
+    border-left: 1px solid black;
+    clear: both;
+    float: right;
+    width: 40vw;
+    height: 40vh;
+}
+.right button{
+    border: none;
+    margin-top: 10px;
+    width: 8vw;
+    height: 8vh;
+    cursor: pointer;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(164,233,148,0.4741246840533089) 100%);
+}
+.right button a{
+    text-decoration: none;
+    color: black;
+}
+.left button{
+    border: none;
+    margin-top: 10px;
+    width: 8vw;
+    height: 8vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(164,233,148,0.4741246840533089) 100%);
+}
+.left button a{
+    text-decoration: none;
+    color: black;
+}
+.left button a:hover{
+    color: white;
+}.right button a:hover{
+    color: white;
+}
+.right button:hover{
+    background: rgb(151,0,0);
+    background: radial-gradient(circle, rgba(151,0,0,0.7822479333530288) 100%, rgba(164,233,148,0.4741246840533089) 100%);
+    color: white;
+}
+
+.left button:hover{
+    background: rgb(151,0,0);
+    background: radial-gradient(circle, rgba(151,0,0,0.7822479333530288) 100%, rgba(164,233,148,0.4741246840533089) 100%);
+}
+
+/*/////////////////////////////////end/////////////////*/
+
+#end{
+    height: 20vh;
+    background: rgb(3,3,3);
+    background: radial-gradient(circle, rgba(3,3,3,0.6001751042213761) 26%, rgba(151,0,0,0.7822479333530288) 100%);
+    text-align: center;
+    color: white;
+}
+#price ul{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#price ul li{
+    padding-top: 14px;
+    list-style: none;
+    width: 10vw;
+    height: 5vh;
+    display: inline-block;
+    background: rgb(47,202,217);
+    background: radial-gradient(circle, rgba(47,202,217,0.630987429151348) 26%, rgba(39,15,179,0.5105392498796393) 92%);
+}
+#price ul li a{
+    color: white;
+    text-decoration: none;
+}
+#price ul li :hover{
+    color: black;
+    background-color: white;
+}

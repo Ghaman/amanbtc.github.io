@@ -1,0 +1,111 @@
+#navbar{
+    height: 100vh;
+    background-image: url(background2.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*/////////////nav/////////*/
+nav{
+    font-size: 2rem;
+    flex-direction: column;
+    height: 20vh;
+}
+/*////////////logo////////*/
+#logo img{
+    width: 10vh;
+}
+/*//////home////*/
+nav ul{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+/*/////intro///*/
+#intro{
+    position: absolute;
+    left: 80px;
+    top: 430px;
+    font-size: 2rem;
+    width: 64vw;
+}
+/*///////////home/////////////*/
+
+#home{
+    height: 150vh;
+    font-size: 2rem;
+    padding: 10px;
+}
+#home h2{
+    margin: 30px;
+    font-size: 3rem;
+}
+#home ul{
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+#home ul li{
+    border: none;
+    width: 94vw;
+    height: 46vh;
+    font-size: 3rem;
+}
+#home ul li img{
+    width: 70vw;
+    height: 20vh;
+}
+#home ul li p{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*/////////////////////////////////////use//////*/
+
+#use{
+    display: flex;
+    height: 300vh;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.left{
+    width: 100vw;
+    font-size: 3rem;
+    margin-top: 30px;
+    padding: 0px;
+    height: 70vh;
+}
+.right{
+    margin-top: 30px;
+    padding: 0px;
+    border: none;
+    width: 100vw;
+    font-size: 3rem;
+    height: 70vh;
+}
+.left button{
+    width: 40vw;
+    font-size: 3rem;
+}
+.right button{
+    width: 40vw;
+    font-size: 3rem;
+}
+/*//////////////////////end/////*/
+
+#end{
+    height: 25vh;
+}
+#price{
+    font-size: 2rem;
+}
+#price p{
+    margin: 25px 10px;
+    font-size: 3rem;
+}
+#price ul li{
+    width: 25vw;
+    font-size: 3rem;
+    margin-top: 30px;
+}
